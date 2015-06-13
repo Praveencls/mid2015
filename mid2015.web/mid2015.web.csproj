@@ -63,10 +63,16 @@
     <Reference Include="Glimpse.Performance">
       <HintPath>..\packages\Glimpse.Performance.1.0.0.3\lib\net4\Glimpse.Performance.dll</HintPath>
     </Reference>
+    <Reference Include="Kamsar.WebConsole">
+      <HintPath>..\packages\Kamsar.WebConsole.1.2.2.0\lib\net40\Kamsar.WebConsole.dll</HintPath>
+    </Reference>
     <Reference Include="log4net">
       <HintPath>..\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.0.1.10\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
     <Reference Include="PostSharp">
       <HintPath>..\packages\PostSharp.3.0.31\lib\net20\PostSharp.dll</HintPath>
     </Reference>
@@ -89,6 +95,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Unicorn">
+      <HintPath>..\packages\Unicorn.2.0.4\lib\net45\Unicorn.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\DataFolder.config" />
@@ -96,6 +105,7 @@
     <Content Include="App_Readme\glimpse.log4net.readme.txt" />
     <Content Include="packages.config" />
     <Content Include="App_Config\Include\Sitecore.Glimpse.config" />
+    <Content Include="App_Config\Include\Serialization.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
